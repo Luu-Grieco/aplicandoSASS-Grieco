@@ -1,0 +1,59 @@
+main{
+    .intro{
+        font-family: Arial, Helvetica, sans-serif;
+        }
+    h2{
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(33, 39, 12);
+        text-align: center;
+    }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        line-height: 1.5;
+        margin: auto;
+        padding: 20px;
+    }
+    .foto{
+         width: 100%;
+         height: auto;
+         margin: auto;
+         padding: 20px;       
+    }
+    .intro2{
+            font-family: Arial, Helvetica, sans-serif;
+            }
+        h2{
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(33, 39, 12);
+            text-align: center;
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2rem;
+            line-height: 1.5;
+            margin: auto;
+            padding: 20px;
+        }
+   ul{
+        list-style-type: square;
+        padding: 20px;
+        li{
+            color:rgb(136, 19, 19);
+            margin: auto;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px;
+            justify-content: center;
+            text-align: center;
+            list-style: none;
+        }
+    }
+}
+.fotosMichi{
+    margin: auto;
+    padding: 20px;  
+}
+.grilla{
+    margin: auto;
+    padding: 20px;
+}

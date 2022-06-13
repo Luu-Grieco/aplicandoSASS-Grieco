@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/favicon.ico">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Líneas de estilos -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Aplicando SASS</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="logo text-center">
+                <img src="./img/logo.png" alt="">
+            </div>
+            <ul class="menu">
+                <li class="boton"><a href="#">Iniciar Sesion</a></li>
+                <li class="boton"><a href="#">Crear Cuenta</a></li>
+                <li class="boton"><a href="#">Productos</a></li>
+                <li class="boton"><a href="#">Servicios</a></li>
+                <li class="boton"><a href="">Todo sobre michis</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <main> 
+            <section>     
+                <article>
+                        <div class="intro">
+                            <br>
+                            <h2>La Web de los michis</h2>
+                            <br>
+                            <br>
+                            <p>Tener a un gato a nuestro lado nos aporta multitud de beneficios. Mejoran nuestra calidad de vida, nos ayudan a 
+                                mantenernos en forma, reducen el estrés y nos hacen ser más responsables y respetuosos con los demás.
+                                Para devolverles todo lo que nos dan aquí encontrarás contenidos útiles para cuidarlos.</p>
+                            <p>Los gatos son asombrosos, están llenos de misterio combinado con actitud. No todas las personas son amantes de los gatos porque son los gatos quienes eligen a quien querer. Si eres uno de los elegidos siéntete afortunado, porque podrás disfrutar del privilegio de su amistad, por eso dicen que hasta el más pequeño de los gatos es una obra maestra. Si estás de acuerdo con este aforismo, bienvenido, eres uno más de los nuestros, un auténtico <span><strong>cat lover</strong></span>.</p>   
+                       </div>  
+                   </article>     
+                 </section>
+                 <br>
+                 <section>
+                    <div class="img-fluid comida">
+                        <img src="./img/cat1.jpg" class="foto" alt="...">
+                        </div>
+                    <article>
+                        <div class="intro2">
+                            <p>Entre fanáticos de los gatos nos sabemos reconocer unos a otros. Tenemos características que nos distinguen, ¿Será que estas son similares a las de nuestras adoradas mascotas? Vamos a averiguarlo: </p>
+                            <ul>
+                                 <li>Los fanáticos de los gatos somos más introvertidos y tímidos que los amantes de los perros.</li>
+                                 <li>Buscamos más comprensión que diversión.</li>
+                                 <li>Somos más sensibles.</li>
+                                 <li>Tenemos una mente más abierta.</li>
+                                 <li>Somos más hogareños.</li>
+                                 <li>Tenemos un lado intelectual.</li>
+                                 <li>Somos más independientes</li>
+                            </ul> 
+                        </div>
+                </article>
+                <br>
+                <div id="carouselExampleDark" class="carousel carousel-dark slide carrou" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner fotosMichis">
+                      <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="./img/cat4.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>El michito</h5>
+                          <p>El michi.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item fotosMichis"" data-bs-interval="2000">
+                        <img src="./img/cat2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>El michi</h5>
+                          <p>Imagen de michito.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item fotosMichis"">
+                        <img src="./img/cat5.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Michito remolon</h5>
+                          <p>Gatito vago.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                  <br>
+            </section> 
+            <div class="row auto grilla">
+                <div class="col-s-12 col-md-6 col-lg-4 p-3 bg-light">
+                    <h2>
+                        Aspectos que debo considerar antes de tener un gato
+                    </h2>
+                    <p>
+                        A la hora de adquirir un gato o un gatito, hay que tener en cuenta muchos aspectos. Sin embargo, todos ellos se relacionan con tu propio estilo de vida y el entorno de tu casa, por lo que lo importante es ver si podés adaptarlos para tener un gato feliz y saludable.
+                    </p>
+                </div>
+                <div class="col-s-12 col-md-6 col-lg-4 p-3 bg-info">
+                    <h2>
+                        Presentación de los gatos a otras mascotas
+                    </h2>
+                    <p>
+                        Conocer a su nueva familia y a cualquier otro animal, incluidos gatos y perros, es un paso muy importante en la vida de un gatito. Por lo tanto, preparar y controlar ese proceso con cuidado es esencial para su salud y bienestar a largo plazo.
+                    </p>
+                </div>
+                <div class="col-s-12 col-md-12 col-lg-4 p-3 bg-light">
+                    <h2>
+                        Instrucciones para cuidar a un gatito o gato
+                    </h2>
+                    <p>
+                        Hay varios factores que contribuyen con el bienestar de tu gato. Cuidarlo adecuadamente desde el primer día garantizará que esté saludable y se adapte bien a su nuevo hogar.
+                    </p>
+                </div>
+                <div class="col-s-12 col-md-6 col-lg-4 p-3 bg-info">
+                    <h2>
+                        Presentación de los gatos a otras mascotas
+                    </h2>
+                    <p>
+                        Conocer a su nueva familia y a cualquier otro animal, incluidos gatos y perros, es un paso muy importante en la vida de un gatito. Por lo tanto, preparar y controlar ese proceso con cuidado es esencial para su salud y bienestar a largo plazo.
+                    </p>
+                </div>
+                <div class="col-s-12 col-md-6 col-lg-4 p-3 bg-light">
+                    <h2>
+                        Educar a los niños sobre cómo cuidar a un gato
+                    </h2>
+                    <p>
+                        Los gatos son excelentes compañeros y pueden desempeñar un papel importante a la hora de enseñar a los niños sobre responsabilidad y cuidado de animales, pero antes de llevar un gato o un gatito a tu hogar, tenés que educar a los niños sobre su nueva mascota.
+                    </p>
+                </div>
+                <div class="col-s-12 col-md-12 col-lg-4 p-3 bg-info">
+                    <h2>
+                        El costo de tener un gato
+                    </h2>
+                    <p>
+                        Existen una serie de costos que tenés que considerar cuando vayas a tener un gato, para asegurarte de que puedas mantener a tu mascota adecuadamente durante toda su vida.
+                    </p>
+                </div>
+            </div>
+            <br>
+            <section>
+                <div class="accordion accordion-flush " id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          Dudas?
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Escribinos a nuestras redes y dejá tu consulta</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          Aceptamos pagos con QR y Mercado Pago
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Descargate tu billetera o app favorita y sumá beneficios</div>
+                      </div>
+                    </div>
+                   </section>
+                   <br>
+                   
+</main>
+ <footer class="footer">
+    <ul class="nav">
+        <li class="botonFooter"><a href="#">Redes Sociales</a></li>
+        <li class="botonFooter"><a href="#">Legales</a></li>
+        <li class="botonFooter"><a href="#">Contactanos</a></li>
+        <li class="botonFooter"><a href="#">Envíos a domicilio</a></li>
+    </ul>
+ </footer> 
+ <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>  
+</body>
+</html>

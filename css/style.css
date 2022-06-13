@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #6ae726; }
+
+header {
+  background-color: #FFEC5C;
+  margin: 10px; }
+  header .nav {
+    width: 80%;
+    background-color: #44803F;
+    margin: 10px auto; }
+    header .nav .logo {
+      text-align: center;
+      margin: 10px;
+      padding: 10px auto; }
+    header .nav .menu {
+      list-style: none;
+      padding: 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center; }
+      header .nav .menu .boton {
+        padding: 10px;
+        margin: 10px; }
+        header .nav .menu .boton:hover {
+          background-color: #FF5A33;
+          border-radius: 15%; }
+        header .nav .menu .boton a {
+          text-decoration: none;
+          color: white; }
+          header .nav .menu .boton a:hover {
+            color: #146152;
+            font-weight: bold; }
+
+main .intro {
+  font-family: Arial, Helvetica, sans-serif; }
+
+main h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #21270c;
+  text-align: center; }
+
+main p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin: auto;
+  padding: 20px; }
+
+main .foto {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 20px; }
+
+main .intro2 {
+  font-family: Arial, Helvetica, sans-serif; }
+
+main h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #21270c;
+  text-align: center; }
+
+main p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin: auto;
+  padding: 20px; }
+
+main ul {
+  list-style-type: square;
+  padding: 20px; }
+  main ul li {
+    color: #881313;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    list-style: none; }
+
+.fotosMichi {
+  margin: auto;
+  padding: 20px; }
+
+.grilla {
+  margin: auto;
+  padding: 20px; }
+
+footer {
+  background-color: #FFEC5C;
+  margin: 10px; }
+  footer .nav {
+    width: 80%;
+    background-color: #44803F;
+    margin: 10px auto; }
+    footer .nav .botonFooter {
+      list-style: none;
+      padding: 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      font-family: Arial, Helvetica, sans-serif; }
+      footer .nav .botonFooter a {
+        text-decoration: none;
+        color: #B4CF66; }
+        footer .nav .botonFooter a:hover {
+          color: #FFEC5C;
+          font-weight: bold;
+          list-style: none; }
