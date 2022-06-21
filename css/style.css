@@ -1,3 +1,43 @@
+.productos {
+  background-color: #44803F;
+  border-radius: 5px;
+  margin: 1rem;
+  padding: 1rem; }
+  .productos h3 {
+    color: #5b2114; }
+  .productos p {
+    color: #5b2114; }
+
+.servicios {
+  background-color: #FFEC5C;
+  border-radius: 5px;
+  margin: 1rem;
+  padding: 1rem; }
+  .servicios h3 {
+    color: #5b2114; }
+  .servicios p {
+    color: #5b2114; }
+
+.todoSobreMichis {
+  background-color: #FFEC5C;
+  border-radius: 5px;
+  margin: 1rem;
+  padding: 1rem; }
+  .todoSobreMichis h3 {
+    color: #146152; }
+  .todoSobreMichis p {
+    color: #146152; }
+
+.sos {
+  background-color: #44803F;
+  border-radius: 5px;
+  margin: 1rem;
+  padding: 1rem; }
+  .sos h3 {
+    color: #5b2114; }
+  .sos p {
+    color: #5b2114; }
+
 * {
   margin: 0;
   padding: 0;
@@ -6,54 +46,57 @@
 body {
   background-color: #6ae726; }
 
-header {
+header, footer {
   background-color: #FFEC5C;
   margin: 10px; }
-  header .nav {
+  header .nav, footer .nav {
     width: 80%;
     background-color: #44803F;
     margin: 10px auto; }
-    header .nav .logo {
+    header .nav .logo, footer .nav .logo {
       text-align: center;
       margin: 10px;
-      padding: 10px auto; }
-    header .nav .menu {
+      padding: 10px auto;
+      height: 50px; }
+    header .nav .imgLogo, footer .nav .imgLogo {
+      height: 80px; }
+    header .nav .menu, footer .nav .menu {
       list-style: none;
       padding: 10px;
       display: flex;
       flex-direction: row;
       justify-content: center; }
-      header .nav .menu .boton {
+      header .nav .menu .boton, footer .nav .menu .boton {
         padding: 10px;
         margin: 10px; }
-        header .nav .menu .boton:hover {
-          background-color: #FF5A33;
+        header .nav .menu .boton:hover, footer .nav .menu .boton:hover {
+          background-color: #5b2114;
           border-radius: 15%; }
-        header .nav .menu .boton a {
+        header .nav .menu .boton a, footer .nav .menu .boton a {
           text-decoration: none;
           color: white; }
-          header .nav .menu .boton a:hover {
+          header .nav .menu .boton a:hover, footer .nav .menu .boton a:hover {
             color: #146152;
             font-weight: bold; }
 
 main .intro {
   font-family: Arial, Helvetica, sans-serif; }
 
-main h2 {
+main h1 {
   font-family: Arial, Helvetica, sans-serif;
   color: #21270c;
   text-align: center; }
+
+main h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #21270c;
+  text-align: left;
+  padding: 20px; }
 
 main p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
   line-height: 1.5;
-  margin: auto;
-  padding: 20px; }
-
-main .foto {
-  width: 100%;
-  height: auto;
   margin: auto;
   padding: 20px; }
 
@@ -84,32 +127,31 @@ main ul {
     text-align: center;
     list-style: none; }
 
-.fotosMichi {
+.carrou {
   margin: auto;
-  padding: 20px; }
+  padding: 20px;
+  width: 1000px;
+  display: block; }
 
 .grilla {
   margin: auto;
   padding: 20px; }
 
-footer {
-  background-color: #FFEC5C;
-  margin: 10px; }
-  footer .nav {
-    width: 80%;
-    background-color: #44803F;
-    margin: 10px auto; }
-    footer .nav .botonFooter {
-      list-style: none;
-      padding: 10px;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      font-family: Arial, Helvetica, sans-serif; }
-      footer .nav .botonFooter a {
-        text-decoration: none;
-        color: #B4CF66; }
-        footer .nav .botonFooter a:hover {
-          color: #FFEC5C;
-          font-weight: bold;
-          list-style: none; }
+.accordion {
+  margin: auto;
+  padding: 20px; }
+
+.botonFooter {
+  list-style: none;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif; }
+  .botonFooter a {
+    text-decoration: none;
+    color: #B4CF66; }
+    .botonFooter a:hover {
+      color: #FFEC5C;
+      font-weight: bold;
+      list-style: none; }

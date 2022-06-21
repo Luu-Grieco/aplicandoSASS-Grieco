@@ -3,4 +3,29 @@ $bg2:#44803F;
 $bg3:#FFEC5C;
 $bg4:#6ae726;
 $texto1:#146152;
-$texto2:#FF5A33;
+$texto2:#5b2114;
+
+@mixin estiloCaja ($bg,$color) {
+    background-color: $bg;
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 1rem;
+    h3{
+        color: $color;
+    }
+    p{
+        color: $color;
+    }   
+}
+.productos{
+    @include estiloCaja($bg2,$texto2)
+}
+.servicios{
+    @include estiloCaja($bg3,$texto2)
+}
+.todoSobreMichis{
+    @include estiloCaja($bg3,$texto1)
+}
+.sos{
+    @include estiloCaja($bg2,$texto2)
+}
